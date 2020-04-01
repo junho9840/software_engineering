@@ -128,7 +128,7 @@ void drawPoint() {
 			float y = (0.8 * sin(s * TwoPI / numc));
 			float z = (2 + 0.8 * cos(s * TwoPI / numc)) * sin(t * TwoPI / numt);
 			//change 0.5-> 0.8 from person B
-			//change 1.5 -> 2 from person B
+			//change 1.5 -> 2 from person B 
 
 			point[17-i][35-j] = vec3(3 * x, 2 + 3 * y, 3 * z);
 			//점들을 저장
