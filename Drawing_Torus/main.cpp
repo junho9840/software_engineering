@@ -124,9 +124,9 @@ void drawPoint() {
 
 			//1 - inner radius
 			//0.3 - outer radius
-			float x = (2 + 0.8 * cos(s * TwoPI / numc)) * cos(t * TwoPI / numt);
-			float y = (0.8 * sin(s * TwoPI / numc));
-			float z = (2 + 0.8 * cos(s * TwoPI / numc)) * sin(t * TwoPI / numt);
+			float x = (1 + 0.3 * cos(s * TwoPI / numc)) * cos(t * TwoPI / numt);
+			float y = (0.3 * sin(s * TwoPI / numc));
+			float z = (1 + 0.3 * cos(s * TwoPI / numc)) * sin(t * TwoPI / numt);
 			//change 0.5-> 0.8 from person B
 			//change 1.5 -> 2 from person B 
 
