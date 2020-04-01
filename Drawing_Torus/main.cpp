@@ -124,10 +124,11 @@ void drawPoint() {
 
 			//1 - inner radius
 			//0.3 - outer radius
-			float x = (1 + 0.3 * cos(s * TwoPI / numc)) * cos(t * TwoPI / numt);
-			float y = (0.3 * sin(s * TwoPI / numc));
-			float z = (1 + 0.3 * cos(s * TwoPI / numc)) * sin(t * TwoPI / numt);
-
+			float x = (1 + 0.5 * cos(s * TwoPI / numc)) * cos(t * TwoPI / numt);
+			float y = (0.5 * sin(s * TwoPI / numc));
+			float z = (1 + 0.5 * cos(s * TwoPI / numc)) * sin(t * TwoPI / numt);
+			// 0.3 -> 0.5
+			//change from person A
 
 			point[17-i][35-j] = vec3(3 * x, 2 + 3 * y, 3 * z);
 			//점들을 저장
