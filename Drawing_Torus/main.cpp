@@ -104,7 +104,7 @@ void init() {
 }
 
 void quit() {
-
+	return;
 }
 
 
