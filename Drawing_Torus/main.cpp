@@ -128,6 +128,7 @@ void drawPoint() {
 			float y = (0.3 * sin(s * TwoPI / numc));
 			float z = (1 + 0.3 * cos(s * TwoPI / numc)) * sin(t * TwoPI / numt);
 
+			printf("\n");
 
 			point[17-i][35-j] = vec3(3 * x, 2 + 3 * y, 3 * z);
 			//점들을 저장
