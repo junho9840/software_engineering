@@ -1,0 +1,29 @@
+﻿glSetup.obj : error LNK2019: __imp__glewInit@0 외부 기호(참조 위치: "struct GLFWwindow * __cdecl initializeOpenGL(int,char * * const,float * const,bool)" (?initializeOpenGL@@YAPAUGLFWwindow@@HQAPADQAM_N@Z) 함수)에서 확인하지 못했습니다.
+glSetup.obj : error LNK2019: __imp__glewGetErrorString@4 외부 기호(참조 위치: "struct GLFWwindow * __cdecl initializeOpenGL(int,char * * const,float * const,bool)" (?initializeOpenGL@@YAPAUGLFWwindow@@HQAPADQAM_N@Z) 함수)에서 확인하지 못했습니다.
+glSetup.obj : error LNK2019: __imp__glewGetString@4 외부 기호(참조 위치: "struct GLFWwindow * __cdecl initializeOpenGL(int,char * * const,float * const,bool)" (?initializeOpenGL@@YAPAUGLFWwindow@@HQAPADQAM_N@Z) 함수)에서 확인하지 못했습니다.
+glSetup.obj : error LNK2019: _glfwInit 외부 기호(참조 위치: "struct GLFWwindow * __cdecl initializeOpenGL(int,char * * const,float * const,bool)" (?initializeOpenGL@@YAPAUGLFWwindow@@HQAPADQAM_N@Z) 함수)에서 확인하지 못했습니다.
+glSetup.obj : error LNK2019: _glfwTerminate 외부 기호(참조 위치: "struct GLFWwindow * __cdecl initializeOpenGL(int,char * * const,float * const,bool)" (?initializeOpenGL@@YAPAUGLFWwindow@@HQAPADQAM_N@Z) 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2001: _glfwTerminate 외부 기호를 확인할 수 없습니다.
+glSetup.obj : error LNK2019: _glfwSetErrorCallback 외부 기호(참조 위치: "struct GLFWwindow * __cdecl initializeOpenGL(int,char * * const,float * const,bool)" (?initializeOpenGL@@YAPAUGLFWwindow@@HQAPADQAM_N@Z) 함수)에서 확인하지 못했습니다.
+glSetup.obj : error LNK2019: _glfwGetPrimaryMonitor 외부 기호(참조 위치: "struct GLFWwindow * __cdecl initializeOpenGL(int,char * * const,float * const,bool)" (?initializeOpenGL@@YAPAUGLFWwindow@@HQAPADQAM_N@Z) 함수)에서 확인하지 못했습니다.
+glSetup.obj : error LNK2019: _glfwGetMonitorPhysicalSize 외부 기호(참조 위치: "struct GLFWwindow * __cdecl initializeOpenGL(int,char * * const,float * const,bool)" (?initializeOpenGL@@YAPAUGLFWwindow@@HQAPADQAM_N@Z) 함수)에서 확인하지 못했습니다.
+glSetup.obj : error LNK2019: _glfwGetVideoMode 외부 기호(참조 위치: "struct GLFWwindow * __cdecl initializeOpenGL(int,char * * const,float * const,bool)" (?initializeOpenGL@@YAPAUGLFWwindow@@HQAPADQAM_N@Z) 함수)에서 확인하지 못했습니다.
+glSetup.obj : error LNK2019: _glfwWindowHint 외부 기호(참조 위치: "struct GLFWwindow * __cdecl initializeOpenGL(int,char * * const,float * const,bool)" (?initializeOpenGL@@YAPAUGLFWwindow@@HQAPADQAM_N@Z) 함수)에서 확인하지 못했습니다.
+glSetup.obj : error LNK2019: _glfwCreateWindow 외부 기호(참조 위치: "struct GLFWwindow * __cdecl initializeOpenGL(int,char * * const,float * const,bool)" (?initializeOpenGL@@YAPAUGLFWwindow@@HQAPADQAM_N@Z) 함수)에서 확인하지 못했습니다.
+glSetup.obj : error LNK2019: _glfwGetWindowSize 외부 기호(참조 위치: "struct GLFWwindow * __cdecl initializeOpenGL(int,char * * const,float * const,bool)" (?initializeOpenGL@@YAPAUGLFWwindow@@HQAPADQAM_N@Z) 함수)에서 확인하지 못했습니다.
+glSetup.obj : error LNK2019: _glfwGetFramebufferSize 외부 기호(참조 위치: "struct GLFWwindow * __cdecl initializeOpenGL(int,char * * const,float * const,bool)" (?initializeOpenGL@@YAPAUGLFWwindow@@HQAPADQAM_N@Z) 함수)에서 확인하지 못했습니다.
+glSetup.obj : error LNK2019: _glfwSetFramebufferSizeCallback 외부 기호(참조 위치: "struct GLFWwindow * __cdecl initializeOpenGL(int,char * * const,float * const,bool)" (?initializeOpenGL@@YAPAUGLFWwindow@@HQAPADQAM_N@Z) 함수)에서 확인하지 못했습니다.
+glSetup.obj : error LNK2019: _glfwMakeContextCurrent 외부 기호(참조 위치: "struct GLFWwindow * __cdecl initializeOpenGL(int,char * * const,float * const,bool)" (?initializeOpenGL@@YAPAUGLFWwindow@@HQAPADQAM_N@Z) 함수)에서 확인하지 못했습니다.
+glSetup.obj : error LNK2019: _glfwSwapBuffers 외부 기호(참조 위치: "struct GLFWwindow * __cdecl initializeOpenGL(int,char * * const,float * const,bool)" (?initializeOpenGL@@YAPAUGLFWwindow@@HQAPADQAM_N@Z) 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2001: _glfwSwapBuffers 외부 기호를 확인할 수 없습니다.
+glSetup.obj : error LNK2019: _glfwSwapInterval 외부 기호(참조 위치: "struct GLFWwindow * __cdecl initializeOpenGL(int,char * * const,float * const,bool)" (?initializeOpenGL@@YAPAUGLFWwindow@@HQAPADQAM_N@Z) 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: _glfwDestroyWindow 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: _glfwWindowShouldClose 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: _glfwSetWindowShouldClose 외부 기호(참조 위치: "void __cdecl keyboard(struct GLFWwindow *,int,int,int,int)" (?keyboard@@YAXPAUGLFWwindow@@HHHH@Z) 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: _glfwPollEvents 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: _glfwSetKeyCallback 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+C:\Users\이준호\source\repos\Drawing_Torus\Drawing_Torus\lib\glew32.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\이준호\source\repos\Drawing_Torus\Drawing_Torus\lib\glew32s.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\이준호\source\repos\Drawing_Torus\Drawing_Torus\lib\glfw3.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\이준호\source\repos\Drawing_Torus\Drawing_Torus\lib\glfw3dll.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\이준호\source\repos\Drawing_Torus\Debug\Drawing_Torus.exe : fatal error LNK1120: 22개의 확인할 수 없는 외부 참조입니다.
